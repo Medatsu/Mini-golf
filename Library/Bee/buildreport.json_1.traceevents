@@ -1,0 +1,547 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1684161666143939, "dur": 10840957, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684161666151982, "dur": 72875, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684161666224860, "dur": 133296, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684161666358158, "dur": 1701223, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684161668059384, "dur": 8916353, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684161676975743, "dur": 9153, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684161676987285, "dur": 31, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1684161667637708, "dur": 356261, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684161667640542, "dur": 101063, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684161667944801, "dur": 14697, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684161667959514, "dur": 34424, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684161667961800, "dur": 30474, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684161668028449, "dur": 4493, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684161668006886, "dur": 26130, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684161676987923, "dur": 712, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684161668174762, "dur":4539, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161668179325, "dur":651, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684161668180085, "dur":36, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684161668180121, "dur":277, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684161668180433, "dur":1288, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161668181721, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676801905, "dur":105, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676802010, "dur":47, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676802057, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676802064, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676802083, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676802087, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676802115, "dur":21, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676802136, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676802152, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676802178, "dur":9, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676808623, "dur":27561, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684161668182916, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161668182918, "dur":12338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161668195683, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684161668196339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161668200287, "dur":28478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684161668228848, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1684161668229042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161668229334, "dur":20426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1684161668249846, "dur":23069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1684161668272957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161668272970, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1684161668275579, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684161668275824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161668276881, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684161668280011, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1684161668280257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161668280381, "dur":14668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1684161668295125, "dur":21119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1684161668316252, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161668316273, "dur":8863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1684161668325204, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684161668325403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161668326217, "dur":6590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1684161668332896, "dur":39017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684161668371922, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161668371935, "dur":152722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684161668524739, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1684161668524931, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161668524945, "dur":922080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1684161669447360, "dur":196780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161669644148, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161669645268, "dur":107309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161669759484, "dur":214575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161669974067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161669974079, "dur":124134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161670098310, "dur":460838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161670559154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161670559164, "dur":5706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161670564964, "dur":147982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161670712957, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161670712970, "dur":7328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161670720377, "dur":102267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161670822653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161670822664, "dur":6227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161670828947, "dur":112075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161670941030, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161670941042, "dur":126280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161671067383, "dur":164812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161671232205, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161671232219, "dur":72467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161671304765, "dur":381029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161671685801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161671685812, "dur":11788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161671697668, "dur":31199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161671728875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161671728886, "dur":7203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161671736152, "dur":107805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161671843967, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161671843980, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161671846093, "dur":67958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161671914058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161671914069, "dur":6310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161671920447, "dur":82345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672002802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161672002815, "dur":5441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672008334, "dur":186337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672194679, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161672194691, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672196876, "dur":61493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672258377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161672258388, "dur":53746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672312215, "dur":84308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672396533, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161672396547, "dur":8711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672405319, "dur":177621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672582948, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161672582961, "dur":7005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672590037, "dur":49738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672639783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161672639794, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672642661, "dur":97090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672739760, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161672739773, "dur":16659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672756496, "dur":105855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672862361, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161672862374, "dur":36847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161672899282, "dur":168486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673067775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161673067785, "dur":6770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673074614, "dur":227132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673301756, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161673301768, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673304575, "dur":212809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673517425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161673517436, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673519765, "dur":2854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673522628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161673522639, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673524651, "dur":1407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673526065, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161673526077, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673528033, "dur":152407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673680447, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161673680458, "dur":16089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161673696610, "dur":415414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161674112031, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161674112042, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161674115010, "dur":593468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161674708486, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161674708499, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161674711367, "dur":118090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161674831804, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161674831823, "dur":32808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161674864694, "dur":107982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161674972685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161674972697, "dur":10150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161674982934, "dur":459932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161675442875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161675442886, "dur":4949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161675447909, "dur":392098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161675840016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161675840027, "dur":6750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161675846846, "dur":242567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161676089421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161676089453, "dur":15850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161676105367, "dur":493981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161676599356, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161676599409, "dur":3983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161676603448, "dur":167728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161676771184, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684161676771196, "dur":30554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684161676801824, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1684161676801831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161668182910, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161668182911, "dur":12339, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161668195701, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1684161668195716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161668198632, "dur":956, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1684161668199597, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1684161668199687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161668200365, "dur":50946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1684161668251316, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1684161668251552, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161668251566, "dur":972993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1684161669224667, "dur":1068254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684161670292929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161670292939, "dur":19924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684161670312938, "dur":327183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161670640131, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161670640144, "dur":102232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161670742458, "dur":185078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161670927582, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161670927596, "dur":54068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161670981736, "dur":66236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671047980, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161671047992, "dur":45790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671093847, "dur":120517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671214374, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161671214389, "dur":37227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671251691, "dur":95247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671346945, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161671346960, "dur":61990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671409010, "dur":100463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671509485, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161671509502, "dur":15111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671524697, "dur":93116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671617821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161671617832, "dur":6810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671624705, "dur":222138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671846849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161671846859, "dur":4377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671851294, "dur":63694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671914994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161671915416, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671917052, "dur":81966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161671999027, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161671999041, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672001482, "dur":143304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672144795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161672144808, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672147061, "dur":81787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672228857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161672228869, "dur":10019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672238945, "dur":134341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672373295, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161672373319, "dur":3469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672376851, "dur":96628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672473488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161672473499, "dur":18212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672491816, "dur":65273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672557098, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161672557112, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672559902, "dur":38521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672598428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161672598437, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672601533, "dur":44276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672645818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161672645829, "dur":6950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672652844, "dur":80285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672733139, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161672733154, "dur":9964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161672743190, "dur":323185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161673066383, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161673066396, "dur":8898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161673075351, "dur":259169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161673334599, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161673334611, "dur":36723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161673371395, "dur":5922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161673377325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161673377336, "dur":3859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161673381258, "dur":193111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161673574380, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161673574395, "dur":24091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161673598558, "dur":128522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161673727088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161673727137, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161673729766, "dur":715007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161674444873, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161674444894, "dur":10061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161674455018, "dur":413719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161674868744, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161674868757, "dur":8172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161674876991, "dur":606148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161675483147, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161675483159, "dur":212530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161675695748, "dur":350872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161676046627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161676046637, "dur":51742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161676098450, "dur":368394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161676467409, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161676467421, "dur":67889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161676535381, "dur":232406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161676767797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684161676767809, "dur":9040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684161676776916, "dur":24949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161668182916, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161668182917, "dur":12340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161668195684, "dur":80890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684161668276581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161668276592, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684161668278851, "dur":30609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684161668309468, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161668309481, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684161668312331, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684161668312537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161668312549, "dur":894560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684161669207345, "dur":8460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1684161669215813, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161669215825, "dur":23022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1684161669238921, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1684161669239126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161669240012, "dur":201135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1684161669441234, "dur":285316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161669726558, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161669751958, "dur":6952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161669758988, "dur":794060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161670553058, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161670553071, "dur":156760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161670710063, "dur":339226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161671049297, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161671049309, "dur":22491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161671071861, "dur":242594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161671314463, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161671314477, "dur":13306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161671327989, "dur":399859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161671727857, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161671727870, "dur":3244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161671731169, "dur":153721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161671884898, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161671884910, "dur":31013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161671915985, "dur":166491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672082485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161672082497, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672084960, "dur":132370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672217338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161672217349, "dur":25940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672243351, "dur":296727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672540086, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161672540098, "dur":6993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672547170, "dur":51028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672598208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161672598220, "dur":5064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672606604, "dur":40491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672647102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161672647112, "dur":6424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672653620, "dur":66707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672720341, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161672720357, "dur":3794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672724239, "dur":133761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672858007, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161672858019, "dur":23341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672881422, "dur":101236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672982667, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161672982693, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161672986777, "dur":177900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673164685, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161673164701, "dur":19943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673184836, "dur":7420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673192265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161673192277, "dur":5063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673197415, "dur":113669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673311093, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161673311106, "dur":18988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673330191, "dur":197169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673527367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161673527377, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673530091, "dur":148216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673678315, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161673678327, "dur":16541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673694932, "dur":66253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673761194, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161673761206, "dur":155941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161673917204, "dur":721833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161674639048, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161674639062, "dur":41922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161674681058, "dur":282497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161674963563, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161674963575, "dur":17521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161674981173, "dur":497590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161675478808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161675478820, "dur":19139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161675498034, "dur":440732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161675938776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161675938790, "dur":3307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161675942191, "dur":709965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161676652163, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676652175, "dur":6626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684161676658867, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684161676659020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676659029, "dur":17548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684161676676638, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684161676676774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676676783, "dur":11588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684161676688442, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684161676688577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676688585, "dur":6084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684161676694728, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684161676694850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676694855, "dur":9258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684161676704198, "dur":765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1684161676704969, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676704979, "dur":5699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1684161676710737, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684161676710894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676710901, "dur":6234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684161676717204, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1684161676717273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676717282, "dur":5490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1684161676722840, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1684161676722898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676722905, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1684161676724913, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1684161676724970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676724976, "dur":2426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1684161676727462, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1684161676727518, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676727533, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1684161676729955, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1684161676730290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684161676730298, "dur":37915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1684161676768334, "dur":33551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161668182945, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161668182946, "dur":12306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161668195684, "dur":150347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1684161668346040, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161668346449, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1684161668348305, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684161668348487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161668348557, "dur":27509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1684161668376148, "dur":147829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684161668523987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161668524003, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684161668525956, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1684161668526159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161668526169, "dur":33682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1684161668559944, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1684161668560270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161668560283, "dur":49082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1684161668609443, "dur":4144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161668613596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161668614132, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161668617712, "dur":36863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161668654583, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161668654709, "dur":10216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161668664996, "dur":1121519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161669786522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161669786531, "dur":557517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161670344242, "dur":214361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161670558612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161670558623, "dur":148938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161670707624, "dur":156494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161670864126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161670864138, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161670866143, "dur":112252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161670978403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161670978414, "dur":81208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671059688, "dur":189206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671248903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161671248915, "dur":12893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671261875, "dur":250394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671512280, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161671512296, "dur":11322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671523719, "dur":95644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671619371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161671619382, "dur":26494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671645939, "dur":96280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671742227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161671742239, "dur":6529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671748844, "dur":101549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671850400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161671850411, "dur":9574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671860045, "dur":67592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671927645, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161671927656, "dur":6624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161671934381, "dur":77864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672012254, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161672012284, "dur":4625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672016988, "dur":79452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672096448, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161672096502, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672098899, "dur":107763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672206670, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161672206682, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672208715, "dur":75505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672284234, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161672284256, "dur":12679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672297579, "dur":85721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672383309, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161672383321, "dur":7791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672391173, "dur":84811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672475993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161672476005, "dur":16239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672492338, "dur":84816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672577163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161672577209, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672580794, "dur":295815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672876617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161672876629, "dur":40767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161672917456, "dur":234694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161673152159, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161673152172, "dur":7745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161673159982, "dur":704600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161673864590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161673864602, "dur":150132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161674014799, "dur":477440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161674492247, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161674492259, "dur":12953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161674505275, "dur":273390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161674778673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161674778719, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161674781192, "dur":383561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161675164765, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161675164781, "dur":7373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161675172254, "dur":139144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161675311406, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161675311418, "dur":9560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161675321073, "dur":687117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161676008196, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676008205, "dur":6022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161676014289, "dur":597874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161676612171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676612183, "dur":20422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161676632667, "dur":2877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Managed/AimingRig.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161676635550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676635561, "dur":5079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Managed/AimingRig.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684161676640709, "dur":1882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1684161676642600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676645651, "dur":2750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1684161676648468, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1684161676648611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676648683, "dur":22189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1684161676670945, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676671108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676671117, "dur":12000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676683183, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676683372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676683382, "dur":10683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676694149, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676694347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676694355, "dur":10701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676705119, "dur":2525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1684161676707653, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676707666, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1684161676710164, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676710259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676710267, "dur":4942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676715279, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676715366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676715375, "dur":3458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676718891, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676718948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676718956, "dur":5355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676724381, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676724446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676724453, "dur":2514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676727045, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676727110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676727118, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1684161676729479, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1684161676729609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676729618, "dur":6836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1684161676736520, "dur":13439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build Mini Golf/Mini Golf_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1684161676750000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684161676750010, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build Mini Golf/Mini Golf_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1684161676752219, "dur":49675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684161676883774, "dur":4458, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1684161676988754, "dur": 2085, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684161676987229, "dur": 3679, "ph": "X", "name": "Write chrome-trace events", "args": {} },
